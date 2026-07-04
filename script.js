@@ -1,10 +1,8 @@
 
-const student = {
-  name: "John",
+const myObj = {
+  name: "Surya",
+  age: 30,
+  city: "Hyd"
 };
 
-function getKeys(obj) {
-  return Object.keys(obj);
-}
-
-console.log(getKeys(student));
+console.log(myObj.getKeys());
